@@ -95,6 +95,17 @@ Console.WriteLine(unboxedCopies);
 
 #endregion
 
+#region Question 11 - which can hold null
+
+// Q11: Use int? which can hold null
+int? year = null;
+Console.WriteLine(year.HasValue);
+
+year = 2023;
+Console.WriteLine(year.Value);
+#endregion
+
+
 #region Book Class Definition
 // Basic Book class for the assignment
 /// <summary>
