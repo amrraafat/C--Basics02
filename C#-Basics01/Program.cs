@@ -60,6 +60,22 @@ int page = Convert.ToInt32(pagesText);
 Console.WriteLine(page);
 #endregion
 
+#region Question 08 - int.Parse and int.TryParse
+// Q8: Parse valid string using int.Parse and handle invalid string using int.TryParse
+string yearText = "2023";
+int parsedYear = int.Parse(yearText);
+Console.WriteLine(parsedYear);
+
+string badText = "abc";
+int safeNumber;
+bool success = int.TryParse(badText, out safeNumber);
+
+if (success == false)
+{
+    Console.WriteLine("Invalid number");
+}
+#endregion
+
 #region Book Class Definition
 // Basic Book class for the assignment
 /// <summary>
