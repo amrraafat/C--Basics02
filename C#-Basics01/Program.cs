@@ -133,6 +133,14 @@ Title ??= "Untitled";
 Console.WriteLine(Title);
 #endregion
 
+#region Question 15 - Null-Forgiving Operator
+
+// Q15: Tell the compiler
+string? name = "Ahmed";
+string confirmedName = name!;
+Console.WriteLine(confirmedName);
+#endregion
+
 #region Book Class Definition
 // Basic Book class for the assignment
 /// <summary>
