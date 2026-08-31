@@ -45,6 +45,12 @@ double pagesDouble = pagesInt;
 Console.WriteLine(pagesDouble);
 #endregion
 
+#region Question 06 - Explicit Casting
+// Q6: Convert double to int using explicit cast (int)
+double price = 49.99;
+int priceInt = (int)price;
+Console.WriteLine(priceInt);
+#endregion
 
 #region Book Class Definition
 // Basic Book class for the assignment
