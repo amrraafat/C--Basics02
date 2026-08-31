@@ -20,6 +20,24 @@ int pages = 464;
 Console.WriteLine(pages);
 #endregion
 
+#region Question 04 - Exception Handling
+// Q4: Catch using try-catch-finally
+try
+{
+    int number1 = 10;
+    int number2 = 0;
+    int result = number1 / number2;
+}
+catch
+{
+    Console.WriteLine("Cannot divide by zero");
+}
+finally
+{
+    Console.WriteLine("Done");
+}
+#endregion
+
 #region Book Class Definition
 // Basic Book class for the assignment
 /// <summary>
