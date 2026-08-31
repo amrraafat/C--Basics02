@@ -52,6 +52,14 @@ int priceInt = (int)price;
 Console.WriteLine(priceInt);
 #endregion
 
+#region Question 07 - Convert Class
+// Q7: Convert string to int using the Convert class
+string pagesText = "464";
+int page = Convert.ToInt32(pagesText);
+
+Console.WriteLine(page);
+#endregion
+
 #region Book Class Definition
 // Basic Book class for the assignment
 /// <summary>
