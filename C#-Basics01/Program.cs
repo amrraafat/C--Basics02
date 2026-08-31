@@ -122,6 +122,16 @@ string? title = book?.Title;
 Console.WriteLine(title);
 #endregion
 
+#region Question 14 - Null-Coalescing Operator
+
+// Q14: Set defaults if value is null
+string? Title = null;
+
+Console.WriteLine(Title ?? "Untitled");
+
+Title ??= "Untitled";
+Console.WriteLine(Title);
+#endregion
 
 #region Book Class Definition
 // Basic Book class for the assignment
