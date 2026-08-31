@@ -76,6 +76,14 @@ if (success == false)
 }
 #endregion
 
+#region Question 09 - Converting Number to String
+
+// Q9: Make a number into a string and check its type
+int pagesint = 464;
+string strPages = pagesint.ToString();
+Console.WriteLine(strPages.GetType());
+#endregion
+
 #region Book Class Definition
 // Basic Book class for the assignment
 /// <summary>
