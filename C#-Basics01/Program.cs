@@ -38,6 +38,14 @@ finally
 }
 #endregion
 
+#region Question 05 - Implicit Casting
+// Q5: Put an int into a double
+int pagesInt = 300;
+double pagesDouble = pagesInt;
+Console.WriteLine(pagesDouble);
+#endregion
+
+
 #region Book Class Definition
 // Basic Book class for the assignment
 /// <summary>
