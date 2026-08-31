@@ -105,6 +105,14 @@ year = 2023;
 Console.WriteLine(year.Value);
 #endregion
 
+#region Question 12 - Checking for Null Values
+
+// Q12: Make a string null and check it
+string? reviewer = null;
+bool isNull = reviewer == null;
+Console.WriteLine(isNull);
+
+#endregion
 
 #region Book Class Definition
 // Basic Book class for the assignment
