@@ -114,6 +114,15 @@ Console.WriteLine(isNull);
 
 #endregion
 
+#region Question 13 - Null-Conditional Operator
+
+// Q13: Read property safely using ?. without crashing
+Book? book = null;
+string? title = book?.Title;
+Console.WriteLine(title);
+#endregion
+
+
 #region Book Class Definition
 // Basic Book class for the assignment
 /// <summary>
