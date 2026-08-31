@@ -5,6 +5,13 @@ object objBook = myBook;
 Console.WriteLine(objBook);
 #endregion
 
+#region Question 02 - System.Object Built in Methods
+// Q2: Use default object methods on myBook
+Console.WriteLine(myBook.ToString());
+Console.WriteLine(myBook.Equals(myBook));
+Console.WriteLine(myBook.GetHashCode());
+Console.WriteLine(myBook.GetType());
+#endregion
 
 #region Book Class Definition
 // Basic Book class for the assignment
