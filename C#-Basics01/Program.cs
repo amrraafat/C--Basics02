@@ -84,6 +84,17 @@ string strPages = pagesint.ToString();
 Console.WriteLine(strPages.GetType());
 #endregion
 
+#region Question 10 - Boxing and Unboxing
+
+// Q10: Box (put int in object) and Unbox (take int out of object)
+int copies = 100;
+object boxedCopies = copies;
+int unboxedCopies = (int)boxedCopies;
+Console.WriteLine(boxedCopies);
+Console.WriteLine(unboxedCopies);
+
+#endregion
+
 #region Book Class Definition
 // Basic Book class for the assignment
 /// <summary>
