@@ -13,6 +13,13 @@ Console.WriteLine(myBook.GetHashCode());
 Console.WriteLine(myBook.GetType());
 #endregion
 
+#region Question 03 - Compile-time Error Fix
+// Q3: Fix the compile-time error
+// Error was: int pages = "464"; (string cannot go into int)
+int pages = 464;
+Console.WriteLine(pages);
+#endregion
+
 #region Book Class Definition
 // Basic Book class for the assignment
 /// <summary>
